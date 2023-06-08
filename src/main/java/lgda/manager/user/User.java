@@ -31,6 +31,6 @@ public class User {
 
     private Boolean isActivated;
 
-    private String role;
+    private UserRole userRole;
 
 }

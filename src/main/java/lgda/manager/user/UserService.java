@@ -35,7 +35,7 @@ public class UserService {
         foundUser.setBillingAddress(user.getBillingAddress());
         foundUser.setDeliveryAddress(user.getDeliveryAddress());
         foundUser.setIsActivated(user.getIsActivated());
-        foundUser.setRole(user.getRole());
+        foundUser.setUserRole(user.getUserRole());
 
         return userRepository.save(foundUser);
     }
